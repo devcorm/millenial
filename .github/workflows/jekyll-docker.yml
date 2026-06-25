@@ -21,7 +21,7 @@ jobs:
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
-          destination: ./output    # Folder output custom
+          destination: ./phone-system    # Folder output custom
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
